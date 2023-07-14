@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #ffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+ .article {
+    background-color: #fff;
+}
+
+
+.theme-palette {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .palette-color {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+
+.theme-settings {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 20px 0;
+}
+
+.theme-settings div {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin: 2px 10px;
+    border: 1px solid #fff;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.theme-settings div.active {
+    opacity: 1;
+}
+
+#theme-white {
+    background-color: #eee;
+}
+#theme-blue {
+    background-color: #1e41c1;
+}
+#theme-orange {
+    background-color: #c7a991;
+}
+#theme-purple {
+    background-color: #7852ae;
+}
+#theme-green {
+    background-color: #5faf3b;
+}
+#theme-black {
+    background-color: #000;
+}
+
+/* theming */
+
+.app.theme-blue {
+    background-color: #bec7e7;
+}
+ 
+.app.theme-blue .articles, 
+.app.theme-blue .about{
+    background-color: #97abf5;
+}
+
+.app.theme-blue .home, 
+.app.theme-blue .articles, 
+.app.theme-blue .projects, 
+.app.theme-blue .about,
+.app.theme-blue h1, 
+.app.theme-blue h2, 
+.app.theme-blue h3, 
+.app.theme-blue h4 {
+    color: #1e41c1;
+}
+
+.app.theme-blue p, 
+.app.theme-blue span {
+    color: #000;
+}
+ 
+.app.theme-orange {
+    background-color: #f4c9b7;
+}
+
+.app.theme-orange .articles,
+.app.theme-orange .about {
+    background-color: #f4dfd6;
+}
+
+.app.theme-orange .home, 
+.app.theme-orange .articles, 
+.app.theme-orange .projects, 
+.app.theme-orange .about,
+.app.theme-orange h1,
+.app.theme-orange h2, 
+.app.theme-orange h3, 
+.app.theme-orange h4 {
+    color:#4a301c;
+}
+
+.app.theme-orange p, 
+.app.theme-orange span {
+    color: #6f543f;
+}
+
+ .app.theme-purple {
+    background-color: #dbb7f4;
+    color: #000;
+}
+
+.app.theme-purple .articles, 
+.app.theme-purple .about {
+    background-color: #ecdfff;
+}
+
+.app.theme-purple .home, 
+.app.theme-purple .articles, 
+.app.theme-purple .projects, 
+.app.theme-purple .about,
+.app.theme-purple h1, 
+.app.theme-purple h2, 
+.app.theme-purple h3, 
+.app.theme-purple h4 {
+    color: #7852ae;
+}
+
+.app.theme-purple p, 
+.app.theme-purple span {
+    color: #000;
+}
+
+.app.theme-green {
+    background-color: #c3e3c1;
+}
+
+.app.theme-green .articles, 
+.app.theme-green .about {
+    background-color: #a0ed9a;
+}
+
+.app.theme-green .home, 
+.app.theme-green .articles, 
+.app.theme-green .projects, 
+.app.theme-green .about,
+.app.theme-green h1, 
+.app.theme-green h2,
+.app.theme-green h3,
+.app.theme-green h4 {
+    color: #5faf3b;
+}
+
+.app.theme-green p, 
+.app.theme-green span {
+    color: #000;
+}
+
+.app.theme-black {
+    background-color: #5c5c5c;
+}
+
+.app.theme-black .articles, 
+.app.theme-black .about {
+    background-color: #333;
+}
+
+.app.theme-black .home, 
+.app.theme-black .articles, 
+.app.theme-black .projects, 
+.app.theme-black .about,
+.app.theme-black h1, 
+.app.theme-black h2, 
+.app.theme-black h3, 
+.app.theme-black h4 {
+    color: #fff;
+}
+
+.app.theme-black p, 
+.app.theme-black span{
+    color: #ccc;
+}
+
