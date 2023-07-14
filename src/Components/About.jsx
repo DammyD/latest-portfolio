@@ -9,7 +9,7 @@ const About = () => {
           <div className="w-full h-64 bg-gray-300"></div>
         </div>
         <div>
-          <h2 className="text-2xl font-bold mb-4">About Me &#128105;</h2>
+          <h2 className="text-2xl font-bold mb-2">About Me &#128105;</h2>
           <span className="bg-gray-400 block w-16 h-1 mb-4"></span>
           <h3 className="text-lg font-bold mb-4">
             A dedicated Front-end Developer based in Lagos, Nigeria.

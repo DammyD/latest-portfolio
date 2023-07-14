@@ -38,9 +38,10 @@ const Home = () => {
             </ul>
         </div>
     </div> */}
-    <div className='min-h-screen bg-gray-100'>
-    <div className='container mx-auto py-12 px-4'>
-      <div className='flex flex-col md:flex-row items-center'>
+<header className=''>
+  <div className='min-h-screen bg-gray-100 flex justify-center items-center'>
+    <div className='container py-12 px-4'>
+      <div className='flex flex-col md:flex-row justify-center items-center gap-8'>
         <div className='md:w-1/2'>
           <h1 className='text-4xl font-bold mb-4'>
             Front-end React <br/> Developer{' '}
@@ -80,7 +81,7 @@ const Home = () => {
           </ul>
         </div>
         <div className='md:w-1/2'>
-          <img src={profile} className='rounded-lg' alt='Profile' />
+          <img src={profile} className='rounded-lg max-w-[200px]' alt='Profile' />
         </div>
       </div>
 
@@ -106,6 +107,11 @@ const Home = () => {
       </div>
     </div>
   </div>
+</header>
+
+
+
+
     </>
   )
 }

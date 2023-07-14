@@ -26,7 +26,8 @@ body {
     border-radius: 50%;
     cursor: pointer;
   }
-  
+ 
+
 
 .theme-settings {
     max-width: 800px;
@@ -45,6 +46,7 @@ body {
     display: inline-block;
     opacity: 0.5;
 }
+
 
 .theme-settings div.active {
     opacity: 1;
@@ -69,34 +71,33 @@ body {
     background-color: #000;
 }
 
-/* theming */
 
-.app.theme-blue {
+.theme-blue {
     background-color: #bec7e7;
 }
  
-.app.theme-blue .articles, 
-.app.theme-blue .about{
+.theme-blue .articles, 
+.theme-blue .about{
     background-color: #97abf5;
 }
 
-.app.theme-blue .home, 
-.app.theme-blue .articles, 
-.app.theme-blue .projects, 
-.app.theme-blue .about,
-.app.theme-blue h1, 
-.app.theme-blue h2, 
-.app.theme-blue h3, 
-.app.theme-blue h4 {
+.theme-blue .home, 
+.theme-blue .articles, 
+.theme-blue .projects, 
+.theme-blue .about,
+.theme-blue h1, 
+.theme-blue h2, 
+.theme-blue h3, 
+.theme-blue h4 {
     color: #1e41c1;
 }
 
-.app.theme-blue p, 
-.app.theme-blue span {
+.theme-blue p, 
+.theme-blue span {
     color: #000;
 }
  
-.app.theme-orange {
+.theme-orange {
     background-color: #f4c9b7;
 }
 
@@ -105,95 +106,150 @@ body {
     background-color: #f4dfd6;
 }
 
-.app.theme-orange .home, 
-.app.theme-orange .articles, 
-.app.theme-orange .projects, 
-.app.theme-orange .about,
-.app.theme-orange h1,
-.app.theme-orange h2, 
-.app.theme-orange h3, 
-.app.theme-orange h4 {
+.theme-orange .home, 
+.theme-orange .articles, 
+.theme-orange .projects, 
+.theme-orange .about,
+.theme-orange h1,
+.theme-orange h2, 
+.theme-orange h3, 
+.theme-orange h4 {
     color:#4a301c;
 }
 
-.app.theme-orange p, 
-.app.theme-orange span {
+.theme-orange p, 
+.theme-orange span {
     color: #6f543f;
 }
 
- .app.theme-purple {
+.theme-purple {
     background-color: #dbb7f4;
     color: #000;
 }
 
-.app.theme-purple .articles, 
-.app.theme-purple .about {
+.theme-purple .articles, 
+.theme-purple .about {
     background-color: #ecdfff;
 }
 
-.app.theme-purple .home, 
-.app.theme-purple .articles, 
-.app.theme-purple .projects, 
-.app.theme-purple .about,
-.app.theme-purple h1, 
-.app.theme-purple h2, 
-.app.theme-purple h3, 
-.app.theme-purple h4 {
+.theme-purple .home, 
+.theme-purple .articles, 
+.theme-purple .projects, 
+.theme-purple .about,
+.theme-purple h1, 
+.theme-purple h2, 
+.theme-purple h3, 
+.theme-purple h4 {
     color: #7852ae;
 }
 
-.app.theme-purple p, 
-.app.theme-purple span {
+.theme-purple p, 
+.theme-purple span {
     color: #000;
 }
 
-.app.theme-green {
+.theme-green {
     background-color: #c3e3c1;
 }
 
-.app.theme-green .articles, 
-.app.theme-green .about {
+.theme-green .articles, 
+.theme-green .about {
     background-color: #a0ed9a;
 }
 
-.app.theme-green .home, 
-.app.theme-green .articles, 
-.app.theme-green .projects, 
-.app.theme-green .about,
-.app.theme-green h1, 
-.app.theme-green h2,
-.app.theme-green h3,
-.app.theme-green h4 {
+.theme-green .home, 
+.theme-green .articles, 
+.theme-green .projects, 
+.theme-green .about,
+.theme-green h1, 
+.theme-green h2,
+.theme-green h3,
+.theme-green h4 {
     color: #5faf3b;
 }
 
-.app.theme-green p, 
-.app.theme-green span {
+.theme-green p, 
+.theme-green span {
     color: #000;
 }
 
-.app.theme-black {
+.theme-black {
     background-color: #5c5c5c;
 }
 
-.app.theme-black .articles, 
-.app.theme-black .about {
+.theme-black .articles, 
+.theme-black .about {
     background-color: #333;
 }
 
-.app.theme-black .home, 
-.app.theme-black .articles, 
-.app.theme-black .projects, 
-.app.theme-black .about,
-.app.theme-black h1, 
-.app.theme-black h2, 
-.app.theme-black h3, 
-.app.theme-black h4 {
+.theme-black .home, 
+.theme-black .articles, 
+.theme-black .projects, 
+.theme-black .about,
+.theme-black h1, 
+.theme-black h2, 
+.theme-black h3, 
+.theme-black h4 {
     color: #fff;
 }
 
-.app.theme-black p, 
-.app.theme-black span{
+.theme-black p, 
+.theme-black span{
     color: #ccc;
 }
 
+.article-image {
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .article-image:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay-content {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+  }  
