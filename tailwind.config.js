@@ -6,7 +6,13 @@ export default {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        bgColor: '#efefef',
+        headingColor: '#3d3d3d',
+        textColor: '#7e7e7e'
+      }
+    },
   },
   plugins: [],
 };

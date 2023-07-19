@@ -1,81 +1,38 @@
-import React, { useState, useEffect } from 'react'
-import Home from "./Components/Home"
-import About from "./Components/About"
-import Projects from "./Components/Projects"
-import Articles from "./Components/Articles"
-import Footer from './Components/Footer'
+// State
+import { useState } from "react";
+// Routes
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Pages
+import Home from "./Components/pages/Home";
+import About from "./Components/pages/About";
+import Projects from "./Components/pages/Projects";
+import Articles from "./Components/pages/Articles";
+
+// Common Components
+import Footer from "./Components/common/Footer";
+import Header from "./Components/common/Header";
+import Settings from "./Components/common/Settings";
 
 const App = () => {
-  // const [colorTheme, setColorTheme] = useState('theme-white');
-  // const [showPalette, setShowPalette] = useState(false);
 
-  // useEffect(() => {
-  //   const currentThemeColor = localStorage.getItem('theme-color');
-  //   if (currentThemeColor) {
-  //     setColorTheme(currentThemeColor);
-  //   }
-  // }, []);
-
-  // const handleClick = (theme) => {
-  //   setColorTheme(theme);
-  //   localStorage.setItem('theme-color', theme);
-  // };
-
-  // const handleTogglePalette = () => {
-  //   setShowPalette(!showPalette);
-  // };
-
-  // return (
-  //   <div className={`app ${colorTheme}`}>
-  //     <Navbar handleTogglePalette={handleTogglePalette} />
-  //     {showPalette && (
-  //       <div className='theme-palette'>
-  //         <div className='palette-color' onClick={() => handleClick('theme-white')}></div>
-  //         <div className='palette-color' onClick={() => handleClick('theme-blue')}></div>
-  //         <div className='palette-color' onClick={() => handleClick('theme-orange')}></div>
-  //         <div className='palette-color' onClick={() => handleClick('theme-purple')}></div>
-  //         <div className='palette-color' onClick={() => handleClick('theme-green')}></div>
-  //         <div className='palette-color' onClick={() => handleClick('theme-black')}></div>
-  //       </div>
-  //     )}
-//       <Home />
-//       <About />
-//       <Projects />
-//       <Articles />
-//       <Footer />
-//     </div>
-//   );
-// }
-
-    // state
-    const [colorTheme, setColorTheme] = useState('theme-white');
-
-    // Effect
-    // useEffect (() => {
-    //     // check for selected theme in the localstorage
-    //     const currentThemeColor = localStorage.getItem('theme-color');
-    //     // if found set selected theme value in state
-    //     if (currentThemeColor) {
-    //         setColorTheme(currentThemeColor);
-    //     }
-    // }, []);
-
-    // // set theme
-    // const handleClick = (theme) => {
-    //     setColorTheme(theme);
-    //     localStorage.setItem('theme-color', theme);
-    // };
+  const [colorTheme, setColorTheme] = useState('theme-white');
 
   return (
-    <>
-    <Home/>
-    <About/>
-    <Projects/>
-    <Articles/>
-    <Footer/>
-  
-    </>
-  )
-}
+    <Router>
+      <div className={`app ${colorTheme}`}>
+      <Header />
+      <Settings setColorTheme={setColorTheme}/>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="articles" element={<Articles />} />
+      </Routes>
+      <Footer />
+      </div>
+    </Router>
+  );
+};
 
-export default App
+export default App;
