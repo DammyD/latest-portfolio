@@ -22,7 +22,7 @@ const App = () => {
     <Router>
       <div className={`app ${colorTheme}`}>
       <Header />
-      <Settings setColorTheme={setColorTheme}/>
+      <Settings colorTheme={colorTheme} setColorTheme={setColorTheme}/>
       <Routes>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />

@@ -1,24 +1,26 @@
-import React from 'react'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import { BsMedium } from 'react-icons/bs'
+import React from 'react';
+import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import {BsMedium} from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer className='index-footer'>
-    <div className='container mx-auto py-4'>
-      <div className='social-media'>
-      <ul className='flex'>
-                <li><FaLinkedin size={20} className='mr-3'/></li>
-                <li><FaGithub size={20} className='mr-3'/></li>
-                <li><BsMedium size={20} className='mr-3'/></li>
-                <li><FaTwitter size={20}/></li>
-            </ul>
+    <footer className='index-footer bg-gray-100'>
+      <div className='container mx-auto py-4'>
+        <div className='social-media'>
+          <ul className='flex'>
+            <li><a href="https://www.linkedin.com/in/blessing-dawodu-75bb9619b/"><FaLinkedin size={20} className='mr-3' /></a></li>
+            <li><a href="https://github.com/DammyD"><FaGithub size={20} className='mr-3' /></a></li>
+            <li><a href="https://medium.com/@ibukunoluwadawodu"><BsMedium size={20} className='mr-3' /></a></li>
+            <li><a href="https://www.linkedin.com/in/blessing-dawodu-75bb9619b/"><FaTwitter size={20} className='' /></a></li>
+          </ul>
+        </div>
+        <div className='credits'>
+          &copy; designed &amp; built by <a href="https://github.com/DammyD/latest-portfolio" className='font-bold text-blue-500' target="_blank" rel="noopener noreferrer">Blessing Dawodu</a>
+        </div>
+        <span className='heart'>&hearts;</span>
       </div>
-      <div>&copy; designed &amp; built by link Blessing Dawodu</div>
-      <span className='heart'>&hearts;</span>
-    </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
