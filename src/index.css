@@ -153,7 +153,7 @@ p {
   .theme-switcher {
     width: 10rem;
     background-color: #fff;
-    position: absolute;
+    position: fixed;
     padding: 1rem;
     right: 0;
     transform: translate(100%, -50%);
@@ -180,7 +180,7 @@ p {
   }
 
 .theme-settings {
-    background-color: pink;
+    background-color: #6B7280;
     width: 10rem;
     margin: 0 auto;
     text-align: right;
@@ -220,7 +220,7 @@ p {
     background-color: #5faf3b;
 }
 #theme-black {
-    background-color: #1a324c;
+    background-color: #ffcce1;
 }
 
 /* theming */
@@ -250,8 +250,20 @@ p {
     color: #000;
 }
 
+.theme-blue .summary {
+    color: #1e41c1;
+}
+
+.theme-blue .summary-list h2 {
+    color: #1e41c1;
+}
+
 .theme-blue .section-link a:hover {
     background-color: #1e41c1;
+}
+
+.theme-blue .page-nav {
+    color: #1e41c1;
 }
  
 .theme-orange {
@@ -279,8 +291,20 @@ p {
     color: #6f543f;
 }
 
+.theme-orange .summary {
+    color: #4a301c;
+}
+
+.theme-orange .summary-list h2 {
+    color: #4a301c;
+}
+
 .theme-orange .section-link a:hover {
     background-color: #4a301c;
+}
+
+.theme-orange .page-nav {
+    color: #4a301c;
 }
 
 .theme-purple {
@@ -309,8 +333,20 @@ p {
     color: #000;
 }
 
+.theme-purple .summary {
+    color: #7852ae;
+}
+
+.theme-purple .summary-list h2 {
+    color: #7852ae;
+}
+
 .theme-purple .section-link a:hover {
     background-color: #7852ae;
+}
+
+.theme-purple .page-nav {
+    color: #7852ae;
 }
 
 .theme-green {
@@ -338,56 +374,91 @@ p {
     color: #000;
 }
 
+.theme-green .summary {
+    color: #5faf3b;
+}
+
+.theme-green .summary-list h2 {
+    color: #5faf3b;
+}
+
 .theme-green .section-link a:hover {
     background-color: #5faf3b;
 }
 
+.theme-green .page-nav {
+    color: #5faf3b;
+}
+
 .theme-black {
-    background-color: #5c5c5c;
+    background-color: #ffcce1;
 }
 
 .theme-black .articles, 
 .theme-black .about {
-    background-color: #1a324c;
+    background-color: #ffcce1;
+}
+.theme-black .home,
+.theme-black h1 {
+    color: #7a314f;
 }
 
 .theme-black .articles h2, 
 .theme-black .articles h3 {
-    color: #fff;
+    color: #7a314f;
 }
 
 .theme-black .home p,
 .theme-black .stacks h3 {
-    color: #222;
+    color: #7a314f;
 }
 
 .theme-black .about h2,
 .theme-black .about h3,
 .theme-black .about p {
-    color: #fff;
+    color: #7a314f;
+}
+
+.theme-black .aboutContent h1,
+.theme-black .aboutContent p{
+    color: #7a314f;
+}
+
+.theme-black .summary {
+    color: #7a314f;
+}
+
+.theme-black .summary-list h2 {
+    color: #7a314f;
 }
 
 .theme-black .projects,
 .theme-black h2,
-.theme-black h3 {
-    color: #000;
+.theme-black h3,
+.theme-black h4 {
+    color: #7a314f;
 }
 
 .theme-black p, 
 .theme-black span{
-    color: #222;
-}
-
-.theme-black .section-link a{
-    color: #fff;
-}
-
-.theme-black .section-link a:hover {
     color: #000;
 }
 
+.theme-black .section-link a{
+    color: #7a314f;
+}
+
 .theme-black .section-link a:hover {
-    background-color: #fff;
+    color: #7a314f;
+}
+
+.theme-black .section-link a:hover {
+    background-color: #7a314f;
+    color: #fff;
+}
+
+.theme-black .page-nav {
+    color: #7a314f;
 }
 
 
@@ -406,20 +477,15 @@ p {
     }
   }
 
-  /* Slide in styles */
+  /* Bounce Image on hover */
 
-  .slide-in {
-    transition: transform 0.3s ease-out;
+   @keyframes bounceImage {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
   }
   
-  .slide-in-entering,
-  .slide-in-entered {
-    transform: translateX(0);
-  }
-  
-  .slide-in-exiting,
-  .slide-in-exited {
-    transform: translateX(100%);
-  }
-
  

@@ -31,7 +31,7 @@ const Settings = ({colorTheme, setColorTheme}) => {
         >
           <button
             onClick={() => setSelectColor((prevState) => !prevState)}
-            className="bg-white px-2"
+            className="bg-white px-2" title="Select Theme"
           >
             <AiOutlineSetting size="25px" className="spin" />
           </button>

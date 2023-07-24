@@ -17,16 +17,13 @@ import project2 from "../../assets/project2.png";
 import article1 from "../../assets/article1.png";
 import article2 from "../../assets/article2.png";
 
-import waves from "../../assets/waves.svg";
-import CurvedTop from "../common/CurvedTop";
-
 const Home = ({ colorTheme }) => {
   return (
     <>
       <section className={`home bg-gray-100 section ${colorTheme}`} id="home">
-        <div className="home-container container grid px-4">
+        <div className="home-container container px-4">
           <div className="home-content grid gap-3 md:grid-cols-3 md:gap-4 items-center">
-            <div className="home-social grid gap-2 md:gap-2">
+            <div className="home-social grid gap-2 md:gap-2 mr-10">
               <a href="https://www.linkedin.com/in/blessing-dawodu-75bb9619b/">
                 <FaLinkedin className="home-social-icon text-2xl" />
               </a>
@@ -73,18 +70,21 @@ const Home = ({ colorTheme }) => {
             <h3 className="text-lg font-bold mb-4">
               A dedicated Front-end Developer based in Lagos, Nigeria.
             </h3>
-            <p className="text-gray-800">
+            <p className="text-gray-800 mb-5">
               As a junior Frontend Developer, I possess an impressive arsenal of
               skills in HTML, CSS, JavaScript, React, and Tailwind. I excel at
               designing and maintaining responsive websites that offer smooth
-              user experiences. My expertise lies in crafting dynamic, engaging
+              user experiences.</p> 
+
+              <p className="text-gray-800">
+              My expertise lies in crafting dynamic, engaging
               interfaces through writing clean and optimized code and utilizing
               cutting-edge development tools and techniques. Additionally, I
               thrive on collaborating with cross-functional teams to develop
               outstanding web applications.
             </p>
           </div>
-          <div class="section-link scroll-in text-center mt-10">
+          <div class="section-link text-center mt-10">
             <Link to="about" className="inline-block py-2 px-4">
               More About Me
             </Link>

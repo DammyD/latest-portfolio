@@ -15,8 +15,8 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="bg-gray-800 sticky top-0 z-50">
-      <nav className="container mx-auto flex items-center justify-between px-4 py-4 md:py-4 md:px-6 bg-gray-800">
+    <header className="bg-gray-600 sticky top-0 z-50">
+      <nav className="container mx-auto flex items-center justify-between px-4 py-4 md:py-4 md:px-6 bg-gray-600">
         <Link to="/" className="text-white font-semibold text-xl">
           Blessing Dawodu
         </Link>
@@ -37,7 +37,7 @@ const Header = () => {
         </div>
 
         {/* Mobile menu */}
-        <ul className={`md:flex items-center px-4 py-2 ${showMenu ? "block" : "hidden"} absolute top-full md:static md:space-x-0 md:flex bg-gray-800 md:bg-transparent transition-all duration-300 right-0 md:right-auto`}>
+        <ul className={`md:flex items-center px-4 py-2 ${showMenu ? "block" : "hidden"} absolute top-full md:static md:space-x-0 md:flex bg-gray-600 md:bg-transparent transition-all duration-300 right-0 md:right-auto`}>
           <li>
             <Link
               to="/"
