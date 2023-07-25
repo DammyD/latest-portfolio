@@ -35,7 +35,6 @@ const Settings = ({colorTheme, setColorTheme}) => {
           >
             <AiOutlineSetting size="25px" className="spin" />
           </button>
-          {/* <h1 className="heading">Select Color</h1> */}
           <div className="theme-settings">
             <div
               id="theme-white"

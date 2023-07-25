@@ -4,10 +4,10 @@ import {BsMedium} from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer className='index-footer bg-gray-100'>
+    <footer className='index-footer bg-gray-100 text-center'>
       <div className='container mx-auto py-4'>
         <div className='social-media'>
-          <ul className='flex'>
+          <ul className='flex justify-center'>
             <li><a href="https://www.linkedin.com/in/blessing-dawodu-75bb9619b/"><FaLinkedin size={20} className='mr-3' /></a></li>
             <li><a href="https://github.com/DammyD"><FaGithub size={20} className='mr-3' /></a></li>
             <li><a href="https://medium.com/@ibukunoluwadawodu"><BsMedium size={20} className='mr-3' /></a></li>

@@ -4,17 +4,19 @@ import about from "../../assets/about.svg";
 const About = () => {
   return (
     <>
-      <section>
+      <section className="py-10">
         <div className="container mx-auto px-4">
-          <div className="subcontainer w-full flex justify-between items-center mt-10">
+          <div className="subcontainer flex flex-col-reverse md:flex-row justify-between items-center mt-10">
+          <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="transform origin-center transition-transform duration-300 hover:animate-bounce cursor-pointer">
-              <img src={about} alt="react" />
+              <img src={about} alt="react" className="w=64 md:w-96"/>
             </div>
-            <div className="aboutContent">
-              <h1 className="text-3xl font-bold mb-4">
+            </div>
+            <div className="aboutContent w-full md:w-1/2 md:pl-10">
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">
                 Hello, I'm Blessing Dawodu &#128578;
               </h1>
-              <p className="text-lg text-gray-600">
+              <p className="text-base md:text-lg text-gray-600">
                 I'm a Front-end React Developer from Nigeria, I have honed my
                 skills in building websites that prioritize responsiveness,
                 accessibility and usability.
@@ -23,18 +25,18 @@ const About = () => {
           </div>
 
           <div className="history container py-3">
-          <details className="items-center cursor-pointer">
-            <summary className="summary text-xl font-bold">History
+          <details className="items-center">
+            <summary className="summary text-xl md:text-2xl font-bold cursor-pointer">History
             </summary>
             <div className="summary-content mt-2">
-              <p className="text-gray-800">
+              <p className="text-gray-800 text-base md:text-lg">
                 Before I met ALX and Stutern program, my journey as a Front-end
                 React Developer was fueled by my passion for learning through
                 online resources like YouTube and FreeCodeCamp. As a Developer
                 from Nigeria, I have honed my skills in building websites that
                 prioritize responsiveness, accessibility, and usability.
               </p>
-              <p className="text-gray-800 mt-2">
+              <p className="text-gray-800 text-base md:text-lg mt-2">
                 Now, with the guidance and support of ALX and Stutern, I am
                 eager to take my development skills to new heights and unlock
                 even greater potential in the world of web development.
@@ -44,50 +46,59 @@ const About = () => {
         </div>
 
         <div className="experience container py-3">
-          <details className="items-center cursor-pointer">
-            <summary className="summary text-xl font-bold">Experience
+          <details className="items-center">
+            <summary className="summary text-xl md:text-2xl font-bold cursor-pointer">Experience
             </summary>
-            <div className="summary-content mt-2">
-              <p></p>
-            </div>
+            <div className="summary-list mt-3">
+              <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
+                <div className="flex">
+              <h2 className="text-lg md:text-xl font-bold">Front-end Developer -</h2>
+              <p>Bootcamp</p>
+              </div>
+              <span>Stutern</span>
+              <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
+                <li className="text-base md:text-lg">HTML</li>
+              </ul>
+              </div>
+              </div>
           </details>
         </div>
 
         <div className="skills container py-3">
-          <details className="items-center cursor-pointer">
-            <summary className="summary text-xl font-bold">Skills
+          <details className="items-center">
+            <summary className="summary text-xl md:text-2xl font-bold cursor-pointer">Skills
             </summary>
             <div className="summary-list mt-3">
               <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
-              <h2>Languages</h2>
-              <ul className="project-tags flex mt-4 space-x-2 pb-3">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
+              <h2 className="text-lg md:text-xl font-bold">Languages</h2>
+              <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
+                <li className="text-base md:text-lg">HTML</li>
+                <li className="text-base md:text-lg">CSS</li>
+                <li className="text-base md:text-lg">JavaScript</li>
               </ul>
               </div>
 
               <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
-              <h2>Libraries</h2>
-              <ul className="project-tags flex mt-4 space-x-2 pb-3">
-                <li>React</li>
-                <li>React Query</li>
+              <h2 className="text-lg md:text-xl font-bold">Libraries</h2>
+              <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
+                <li className="text-base md:text-lg">React</li>
+                <li className="text-base md:text-lg">React Query</li>
               </ul>
               </div>
 
               <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
-              <h2>Frameworks</h2>
-              <ul className="project-tags flex mt-4 space-x-2 pb-3">
-                <li>Tailwind</li>
+              <h2 className="text-lg md:text-xl font-bold">Frameworks</h2>
+              <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
+                <li className="text-base md:text-lg">Tailwind</li>
               </ul>
               </div>
 
               <div className="mt-3">
-              <h2>Tools & Systems</h2>
-              <ul className="project-tags flex mt-4 space-x-2 ">
-                <li>GIT</li>
-                <li>VSCODE</li>
-                <li>NPM</li>
+              <h2 className="text-lg md:text-xl font-bold">Tools & Systems</h2>
+              <ul className="project-tags flex mt-2 md:mt-4 space-x-2 ">
+                <li className="text-base md:text-lg">GIT</li>
+                <li className="text-base md:text-lg">VSCODE</li>
+                <li className="text-base md:text-lg">NPM</li>
               </ul>
               </div>
             </div>
@@ -104,9 +115,7 @@ const About = () => {
       <div class="page-nav flex justify-between mb-6">
     <a href="/" className="ml-6">&#8592; Home</a>
     <a href="projects" className="mr-6">Projects &#8594;</a>
-  </div>
-
-      
+  </div>  
     </>
   );
 };
