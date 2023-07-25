@@ -473,14 +473,14 @@ p {
 
   /* Bounce Image on hover */
 
-   @keyframes bounceImage {
+   /* @keyframes bounceImage {
     0%, 100% {
       transform: translateY(0);
     }
     50% {
       transform: translateY(-20px);
     }
-  }
+  } */
   
   /* @media screen and (max-width: 400px) {
     .home-container {

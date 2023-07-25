@@ -8,7 +8,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="subcontainer flex flex-col-reverse md:flex-row justify-between items-center mt-10">
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-            <div className="transform origin-center transition-transform duration-300 hover:animate-bounce cursor-pointer">
+            <div className="">
               <img src={about} alt="react" className="w=64 md:w-96"/>
             </div>
             </div>
