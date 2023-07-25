@@ -482,7 +482,7 @@ p {
     }
   }
   
-  @media screen and (max-width: 400px) {
+  /* @media screen and (max-width: 400px) {
     .home-container {
         position: relative;
     }
@@ -492,6 +492,6 @@ p {
         right: -20px;
         top: 100px;
     }
-  };
+  }; */
     
  
