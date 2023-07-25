@@ -492,17 +492,6 @@ p {
         right: -20px;
         top: 100px;
     }
-
-    .theme-switcher {
-        width: 10rem;
-        background-color: #fff;
-        position: fixed;
-        padding: 1rem;
-        right: 0;
-        transform: translate(100%, -50%);
-        top: 4%;
-        transition: all .5s ease-in-out;
-      }
   };
     
  
