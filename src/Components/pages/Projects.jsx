@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from '../cards/ProjectCard';
-import projectData from '../../data/ProjectData'
+import projectData from '../../data/projectData';
 import prevProject from '../../data/prevProject';
 import webApps from '../../data/webApps';
 
