@@ -12,8 +12,8 @@ const Footer = () => {
             <li><a href="https://www.linkedin.com/in/blessing-dawodu-75bb9619b/"><FaLinkedin size={20} className='mr-3' /></a></li>
             <li><a href="https://github.com/DammyD"><FaGithub size={20} className='mr-3' /></a></li>
             <li><a href="https://medium.com/@ibukunoluwadawodu"><BsMedium size={20} className='mr-3' /></a></li>
-            <li><a href="https://www.linkedin.com/in/blessing-dawodu-75bb9619b/"><FaTwitter size={20} className='mr-3' /></a></li>
-            <li><a href="https://www.linkedin.com/in/blessing-dawodu-75bb9619b/"><SiHashnode size={20} className='' /></a></li>
+            <li><a href="https://twitter.com/IbukunDawodu?t=2DRjGKM3QlV61EpdK0-ayA&s=08"><FaTwitter size={20} className='mr-3' /></a></li>
+            <li><a href="https://dammyd.hashnode.dev/"><SiHashnode size={20} className='' /></a></li>
           </ul>
         </div>
         <div className='credits'>
