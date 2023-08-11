@@ -216,7 +216,7 @@ p {
 /* theming */
 
 .theme-blue {
-    background-color: #bec7e7;
+    background-color: #97abf5;
 }
  
 .theme-blue .articles, 
@@ -258,7 +258,7 @@ p {
 }
  
 .theme-orange {
-    background-color: #f4c9b7;
+    background-color: #f4dfd6;
 }
 
 .app.theme-orange .articles,
@@ -276,10 +276,9 @@ p {
 .theme-orange h4 {
     color:#4a301c;
 }
-
-.theme-orange p, 
+.theme-orange p,
 .theme-orange span {
-    color: #6f543f;
+    color: #000;
 }
 
 .theme-orange .summary {
@@ -300,7 +299,7 @@ p {
 }
 
 .theme-purple {
-    background-color: #dbb7f4;
+    background-color: #ecdfff;
     color: #000;
 }
 
@@ -348,7 +347,7 @@ p {
 
 .theme-green .articles, 
 .theme-green .about {
-    background-color: #a0ed9a;
+    background-color: #c3e3c1;
 }
 
 .theme-green .home, 
@@ -402,19 +401,16 @@ p {
     color: #7a314f;
 }
 
-.theme-black .home p,
 .theme-black .stacks h3 {
     color: #7a314f;
 }
 
 .theme-black .about h2,
-.theme-black .about h3,
-.theme-black .about p {
+.theme-black .about h3 {
     color: #7a314f;
 }
 
-.theme-black .aboutContent h1,
-.theme-black .aboutContent p{
+.theme-black .aboutContent h1 {
     color: #7a314f;
 }
 

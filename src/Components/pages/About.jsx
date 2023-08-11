@@ -32,7 +32,7 @@ const About = () => {
               <p className="text-gray-800 text-base md:text-lg">
                 Before I met ALX and Stutern program, my journey as a Front-end
                 React Developer was fueled by my passion for learning through
-                online resources like YouTube and FreeCodeCamp. As a Developer
+                online resources like <span className="font-bold">YouTube, W3Schools and FreeCodeCamp</span>. As a Developer
                 from Nigeria, I have honed my skills in building websites that
                 prioritize responsiveness, accessibility, and usability.
               </p>
@@ -53,11 +53,24 @@ const About = () => {
               <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
                 <div className="flex">
               <h2 className="text-lg md:text-xl font-bold">Front-end Developer -</h2>
-              <p>Bootcamp</p>
+              <p>Stutern</p>
               </div>
-              <span>Stutern</span>
+              <span>Oct. 2022 - June 2023 | Lagos, Nigeria</span>
               <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
-                <li className="text-base md:text-lg">HTML</li>
+                <li className="text-base md:text-lg">Responsible for building user interfaces and developing frontend architecture on various client projects using several technologies and methodologies.</li>
+              </ul>
+              </div>
+              </div>
+
+                <div className="summary-list mt-3">
+              <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
+                <div className="flex">
+              <h2 className="text-lg md:text-xl font-bold">Front-end Developer -</h2>
+              <p>Alx</p>
+              </div>
+              <span>March 2022 - May 2023 | Virtual</span>
+              <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
+                <li className="text-base md:text-lg">Collaborated with a team of two to create wireframes, mockups and prototypes for products and see them to deployment.</li>
               </ul>
               </div>
               </div>
@@ -106,7 +119,7 @@ const About = () => {
         </div> 
 
       <div className="section-link text-center mb-4">
-      <a href="" className="inline-block py-2 px-4">Download My Resume</a>
+      <a href="https://docs.google.com/document/d/1B7LVnhg91QikF7uQFa2vrCmStT4EbeYq3OmODtn8Xvg/edit" className="inline-block py-2 px-4">Download My Resume</a>
       </div>
 
         </div>
