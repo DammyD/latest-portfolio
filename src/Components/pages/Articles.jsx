@@ -28,8 +28,8 @@ const Articles = () => {
               </h2>
 
               <div className="article-description">
-                <p className="article-details text-base text-gray-700 mt-1">{article.details}</p>
-                <p className="article-date text-sm text-gray-700 mt-2">{article.date.join(', ')}</p>
+                <p className="article-details text-lg text-gray-700 mt-1">{article.details}</p>
+                <p className="article-date text-base text-gray-700 mt-2">{article.date.join(', ')}</p>
               </div>
             </div>
             </div>
