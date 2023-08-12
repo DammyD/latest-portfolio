@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className='index-footer bg-gray-100 text-center'>
       <div className='container mx-auto py-4'>
-        <div className='social-media'>
+        <div className='social-media mb-1'>
           <ul className='flex justify-center'>
             <li><a href="https://www.linkedin.com/in/blessing-dawodu-75bb9619b/"><FaLinkedin size={20} className='mr-3' /></a></li>
             <li><a href="https://github.com/DammyD"><FaGithub size={20} className='mr-3' /></a></li>
@@ -17,7 +17,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className='credits'>
-          &copy; designed &amp; built by <a href="https://github.com/DammyD/latest-portfolio" className='font-bold text-blue-500' target="_blank" rel="noopener noreferrer">Blessing Dawodu</a>
+          &copy; designed &amp; built by <a href="https://github.com/DammyD/latest-portfolio" className='font-bold text-blue-500 hover:text-red-500 underline' target="_blank" rel="noopener noreferrer">Blessing Dawodu</a>
         </div>
         <span className='heart'>&hearts;</span>
       </div>

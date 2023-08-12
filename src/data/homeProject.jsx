@@ -20,8 +20,8 @@ const homeProject =   [
     id: 2,
     title: 'Hospital Management System',
     image: article3,
-    tag: ['React', 'Styled Component'],
-    shortDescription: ` This project emerged to enhance hospital systems, replacing the outdated card-file method prone to losing medical data. Our focus is aiding under-resourced hospitals by providing effective patient record management in regions like Africa..`,
+    tag: ['React', 'Styled Components'],
+    shortDescription: ` This project emerged to enhance hospital systems, replacing the outdated card-file method prone to losing medical data. Our focus is aiding under-resourced hospitals by providing effective patient record management in regions like Africa.`,
     codeLink: 'https://github.com/St-Pardon/klinik',
     liveDemoLink: 'https://klinik-demo.netlify.app/'
   },

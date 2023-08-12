@@ -18,26 +18,26 @@ const Projects = () => {
       </p>
         </div>
 
-        <div className='websites'>
-          <h2 className='text-lg md:text-xl font-bold mt-4 mb-2 mr-9'>Webpages ({projectData.length})</h2>  
+        <div className='websites mt-6 md:mt-8'>
+          <h2 className='text-base md:text-lg font-bold mt-4 mb-2 mr-2 md:mr-9'>Webpages ({projectData.length})</h2>  
           <ProjectCard projects={projectData} />
         </div>
 
-        <div className='webapps mt-10'>
-          <h2 className='text-lg md:text-xl font-bold mt-4 mb-2'>WebApps ({webApps.length})</h2>  
+        <div className='webapps mt-8'>
+          <h2 className='text-base md:text-lg font-bold mt-4 mb-2'>WebApps ({webApps.length})</h2>  
           <ProjectCard projects={webApps} />
         </div>
 
-        <div className='previous-portfolio mt-10'>
-          <h2 className='text-lg md:text-xl font-bold mt-4 mb-2'>Previous Portfolio ({prevProject.length})</h2>  
+        <div className='previous-portfolio mt-8'>
+          <h2 className='text-base md:text-lg font-bold mt-4 mb-2'>Previous Portfolio ({prevProject.length})</h2>  
           <ProjectCard projects={prevProject} />
         </div>
       </div>
     </section>
 
-    <div class="page-nav flex justify-between mb-6">
-    <a href="about" className="ml-6">&#8592; About</a>
-    <a href="articles" className="mr-6">Articles &#8594;</a>
+    <div class="page-nav flex justify-between mb-4 md:mb-6">
+    <a href="about" className="ml-2 md:ml-6">&#8592; About</a>
+    <a href="articles" className="mr-2 md:mr-6">Articles &#8594;</a>
   </div> 
     </>
 

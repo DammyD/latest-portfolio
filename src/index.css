@@ -216,6 +216,10 @@ p {
 
 /* theming */
 
+.theme-white .section-link a:hover {
+    background-color: #000;
+    color: #fff;
+}
 .theme-blue {
     background-color: #97abf5;
 }

@@ -16,20 +16,20 @@ const Articles = () => {
             </p>
           </div>
 
-          <div>
-            <h2 className='text-lg md:text-xl font-bold mt-4 mb-2 mr-9'>All ({articleData.length})</h2>
+          <div className="md:mb-4">
+            <h2 className='text-base md:text-lg font-bold mt-4 mb-2 mr-2 md:mr-9'>All ({articleData.length})</h2>
             </div>
           <div className="article-container">
             {articleData.map((article) => (
               <div className="" key={article.id}>
-            <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3" >
-              <h2 className="article-title text-lg font-semibold">
+            <div className="mt-4 md:mt-3 border-b-2 border-dashed border-gray-500 pb-3" >
+              <h2 className="article-title text-lg font-semibold underline">
                 <a href={article.site}>{article.title}</a>
               </h2>
 
               <div className="article-description">
-                <p className="article-details text-gray-700 mt-1">{article.details}</p>
-                <p className="article-date text-gray-700 mt-2">{article.date.join(', ')}</p>
+                <p className="article-details text-base text-gray-700 mt-1">{article.details}</p>
+                <p className="article-date text-sm text-gray-700 mt-2">{article.date.join(', ')}</p>
               </div>
             </div>
             </div>

@@ -6,7 +6,7 @@ const About = () => {
     <>
       <section className="py-10">
         <div className="container mx-auto px-4">
-          <div className="subcontainer flex flex-col-reverse md:flex-row justify-between items-center mt-10">
+          <div className="subcontainer flex flex-col-reverse md:flex-row justify-between items-center">
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="">
               <img src={about} alt="react" className="w=64 md:w-96"/>
@@ -50,7 +50,7 @@ const About = () => {
             <summary className="summary text-xl md:text-2xl font-bold cursor-pointer">Experience
             </summary>
             <div className="summary-list mt-3">
-              <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
+              <div className="mt-4 md:mt-3 border-b-2 border-dashed border-gray-500 pb-3">
                 <div className="flex">
               <h2 className="text-lg md:text-xl font-bold">Front-end Developer -</h2>
               <p>Stutern</p>
@@ -63,7 +63,7 @@ const About = () => {
               </div>
 
                 <div className="summary-list mt-3">
-              <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
+              <div className="mt-4 md:mt-3 border-b-2 border-dashed border-gray-500 pb-3">
                 <div className="flex">
               <h2 className="text-lg md:text-xl font-bold">Front-end Developer -</h2>
               <p>Alx</p>
@@ -82,7 +82,7 @@ const About = () => {
             <summary className="summary text-xl md:text-2xl font-bold cursor-pointer">Skills
             </summary>
             <div className="summary-list mt-3">
-              <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
+              <div className="mt-4 md:mt-3 border-b-2 border-dashed border-gray-500 pb-3">
               <h2 className="text-lg md:text-xl font-bold">Languages</h2>
               <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
                 <li className="text-base md:text-lg">HTML</li>
@@ -91,7 +91,7 @@ const About = () => {
               </ul>
               </div>
 
-              <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
+              <div className="mt-4 md:mt-3 border-b-2 border-dashed border-gray-500 pb-3">
               <h2 className="text-lg md:text-xl font-bold">Libraries</h2>
               <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
                 <li className="text-base md:text-lg">React</li>
@@ -99,14 +99,14 @@ const About = () => {
               </ul>
               </div>
 
-              <div className="mt-3 border-b-2 border-dashed border-gray-500 pb-3">
+              <div className="mt-4 md:mt-3 border-b-2 border-dashed border-gray-500 pb-3">
               <h2 className="text-lg md:text-xl font-bold">Frameworks</h2>
               <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
                 <li className="text-base md:text-lg">Tailwind</li>
               </ul>
               </div>
 
-              <div className="mt-3">
+              <div className="mt-4 md:mt-3">
               <h2 className="text-lg md:text-xl font-bold">Tools & Systems</h2>
               <ul className="project-tags flex mt-2 md:mt-4 space-x-2 ">
                 <li className="text-base md:text-lg">GIT</li>

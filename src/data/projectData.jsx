@@ -21,7 +21,7 @@ const projectData = [
           title: 'KLINIK',
           imageSrc: article3,
           content: 'A web application for providing efficient patient record',
-          tags: ['React', 'Style Component'],
+          tags: ['React', 'Styled Components'],
           site: 'https://klinik-demo.netlify.app/'
         },
         {
