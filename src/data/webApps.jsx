@@ -22,7 +22,7 @@ const webApps = [
       title: 'CALENDAR',
       imageSrc: project11,
       tags: ['HTML', 'CSS', 'JS'],
-      site: 'https://loan-prediction-app-group-1b.netlify.app/'
+      site: 'https://venerable-salamander-478ca3.netlify.app/'
     },
     
 ]
