@@ -8,16 +8,24 @@ const ProjectCard = ({ projects }) => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 600,
         slidesToShow: 2,
         slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024, // Medium screen breakpoint
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
       };
 
   return (
     <div className='project-slider '>
     <Slider {...settings}>
     {projects.map((project) => (
-    <div className='project w-80 h-96 flex justify-between bg-white shadow-md rounded-md p-3 space-x-4 mb-4' key={project.id}>
+    <div className='project w-full h-auto md:w-80 md:h-96 flex justify-between bg-white shadow-md rounded-md p-3 space-x-4 mb-4' key={project.id}>
       <div className='project-image'>
         <img src={project.imageSrc} alt={project.title} className='w-full h-auto rounded-md'  />
       </div>
