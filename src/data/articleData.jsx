@@ -47,7 +47,7 @@ const articleData = [
         id: 6,
         title: 'Optimizing Frontend Performance for an Exceptional User Experience',
         details: `In this article, we'll probe how front-end performance impacts user experience and emphasize the role of automated testing in hitting performance targets.`,
-        date: ['aug 14, 2023 . 5 min read'],
+        date: ['Aug 14, 2023 . 5 min read'],
         site: 'https://dammyd.hashnode.dev/optimizing-frontend-performance-for-an-exceptional-user-experience'
       },
 ] 
