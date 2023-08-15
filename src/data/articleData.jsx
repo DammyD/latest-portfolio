@@ -40,15 +40,15 @@ const articleData = [
         id: 6,
         title: 'The Epic Adventure of a Woman in Tech',
         details: 'Get ready to dive into the captivating tech world, where code dances and algorithms wield magic. My journey as a woman in this realm is a rollercoaster of emotions—laughter, tears, and victories. Join me as I share the thrilling chapters of my story!',
-        date: [''],
-        site: ''
+        date: ['Aug 14, 2023 . 10 min read'],
+        site: 'https://dammyd.hashnode.dev/the-epic-adventure-of-a-woman-in-tech'
       },
     {
         id: 6,
         title: 'Optimizing Frontend Performance for an Exceptional User Experience',
         details: `In this article, we'll probe how front-end performance impacts user experience and emphasize the role of automated testing in hitting performance targets.`,
-        date: [''],
-        site: ''
+        date: ['aug 14, 2023 . 5 min read'],
+        site: 'https://dammyd.hashnode.dev/optimizing-frontend-performance-for-an-exceptional-user-experience'
       },
 ] 
 
