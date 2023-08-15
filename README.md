@@ -9,8 +9,8 @@ Hello, I'm Blessing, a Front-end React Developer passionate about building respo
 
 - HTML
 - CSS
-- React
 - JavaScript
+- React
 - Tailwind CSS
 
 ## About Me
@@ -19,12 +19,12 @@ I have a keen interest in creating user-friendly and visually appealing web expe
 
 ## Contact
 
-📧 Email: [ibukunoluwadawodu@gmail.com](mailto:ibukunoluwadawodu@gmail.com)
-💼 LinkedIn: [Blessing Dawodu](https://www.linkedin.com/in/blessing-dawodu-75bb9619b/)
-🐦 Twitter: [@IbukunDawodu](https://twitter.com/IbukunDawodu?t=2DRjGKM3QlV61EpdK0-ayA&s=08)
-🌐 Portfolio: [Blessing Dawodu](https://github.com/DammyD/latest-portfolio)
-📝 Hashnode: [Blessing Dawodu](https://dammyd.hashnode.dev/)
-📝 Medium: [@ibukunoluwadawodu](https://medium.com/@ibukunoluwadawodu)
+- 📧 Email: [ibukunoluwadawodu@gmail.com](mailto:ibukunoluwadawodu@gmail.com)
+- 💼 LinkedIn: [Blessing Dawodu](https://www.linkedin.com/in/blessing-dawodu-75bb9619b/)
+- 🐦 Twitter: [@IbukunDawodu](https://twitter.com/IbukunDawodu?t=2DRjGKM3QlV61EpdK0-ayA&s=08)
+- 🌐 Portfolio: [Blessing Dawodu](https://github.com/DammyD/latest-portfolio)
+- 📝 Hashnode: [Blessing Dawodu](https://dammyd.hashnode.dev/)
+- 📝 Medium: [@ibukunoluwadawodu](https://medium.com/@ibukunoluwadawodu)
 
 Feel free to reach out if you'd like to collaborate, discuss projects, or simply have a tech chat! 👩‍💻
 
