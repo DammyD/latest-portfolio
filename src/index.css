@@ -119,8 +119,12 @@ p {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
 }
+
+img {
+    width: 100%;
+}
   
-  .project-image img {
+  .project-image {
     display: block;
     width: 100%;
     height: auto;
@@ -472,27 +476,19 @@ p {
     }
   }
 
-  /* Bounce Image on hover */
-
-   /* @keyframes bounceImage {
-    0%, 100% {
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
       transform: translateY(0);
     }
-    50% {
-      transform: translateY(-20px);
-    }
-  } */
+  }
   
-  /* @media screen and (max-width: 400px) {
-    .home-container {
-        position: relative;
-    }
-
-    .home-social {
-        position: absolute;
-        right: -20px;
-        top: 100px;
-    }
-  }; */
+  .fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+  }
     
  

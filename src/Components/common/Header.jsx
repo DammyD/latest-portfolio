@@ -14,6 +14,11 @@ const Header = () => {
   // toggle menu
   const [showMenu, setShowMenu] = useState(false);
 
+  // Function to close the menu
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+
   return (
     <header className="bg-gray-600 sticky top-0 z-50">
       <nav className="container mx-auto flex items-center justify-between px-4 py-4 md:py-4 md:px-6 bg-gray-600">
@@ -37,11 +42,12 @@ const Header = () => {
         </div>
 
         {/* Mobile menu */}
-        <ul className={`md:flex items-center px-4 py-2 ${showMenu ? "block" : "hidden"} absolute top-full md:static md:space-x-0 md:flex bg-gray-600 md:bg-transparent transition-all duration-300 right-0 md:right-auto`}>
+        <ul className={`md:flex items-center px-4 py-2 ${showMenu ? "block fade-in shadow-lg" : "hidden"} absolute top-full left-0 right-0 md:static md:space-x-0 md:flex bg-gray-500 md:bg-transparent transition-all duration-300 justify-center md:justify-start`}>
           <li>
             <Link
               to="/"
-              className="flex md:inline-flex items-center text-white hover:text-gray-200 py-3 px-4"
+              className="flex md:inline-flex justify-center items-center text-white hover:text-gray-200 py-3 px-4"
+              onClick={closeMenu}
             >
               <AiOutlineHome className="mr-2" />
               Home
@@ -50,7 +56,8 @@ const Header = () => {
           <li>
             <Link
               to="/about"
-              className="flex md:inline-flex items-center text-white hover:text-gray-200 py-3 px-4"
+              className="flex md:inline-flex justify-center items-center text-white hover:text-gray-200 py-3 px-4"
+              onClick={closeMenu}
             >
               <AiOutlineWoman className="mr-2" />
               About
@@ -59,7 +66,8 @@ const Header = () => {
           <li>
             <Link
               to="/projects"
-              className="flex md:inline-flex items-center text-white hover:text-gray-200 py-3 px-4"
+              className="flex md:inline-flex justify-center items-center text-white hover:text-gray-200 py-3 px-4"
+              onClick={closeMenu}
             >
               <FaTasks className="mr-2" />
               Projects
@@ -68,7 +76,8 @@ const Header = () => {
           <li>
             <Link
               to="/articles"
-              className="flex md:inline-flex items-center text-white hover:text-gray-200 py-3 px-4"
+              className="flex md:inline-flex justify-center items-center text-white hover:text-gray-200 py-3 px-4"
+              onClick={closeMenu}
             >
               <MdOutlineArticle className="mr-2" />
               Articles
