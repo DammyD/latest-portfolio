@@ -19,7 +19,7 @@ const Projects = () => {
         </div>
 
         <div className='websites mt-6 md:mt-8'>
-          <h2 className='text-base md:text-lg font-bold mt-4 mb-2 mr-2 md:mr-9'>Webpages ({projectData.length})</h2>  
+          <h2 className='text-base md:text-lg font-bold mt-4 mb-2 mr-2 md:mr-9'>WebPages ({projectData.length})</h2>  
           <ProjectCard projects={projectData} />
         </div>
 

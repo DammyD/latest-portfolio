@@ -12,7 +12,7 @@ const Articles = () => {
             </h1>
             <p class="section-subtitle">
               I write articles on multiple platforms, this
-              is a list of everything I've written online.
+              is a list of some of the articles I've written online.
             </p>
           </div>
 

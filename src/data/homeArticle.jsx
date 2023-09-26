@@ -8,7 +8,7 @@ const homeArticle = [
   title: 'What happens when you type a URL in the browser and press enter?',
   image: article1,
   tag: 'Medium',
-  shortDescription: `  The purpose of this article is to explain, simply what
+  shortDescription: `The purpose of this article is to explain, simply what
   happens when you type a URL and press ENTER key.
 `,
   site: 'https://medium.com/@ibukunoluwadawodu/what-happens-when-you-type-a-url-in-the-browser-and-press-enter-498df8c5eb13',
@@ -31,7 +31,7 @@ const homeArticle = [
   tag: 'Medium',
   shortDescription: `In this comprehensive article, is a detailed journey that
   unfolds the remarkable development of a Hospital Management
-  System, driven by a vison to revolutionize healthcare
+  System, driven by a vision to revolutionize healthcare
   management in unfunded regions.`,
   site:'https://medium.com/@ibukunoluwadawodu/hospital-management-system-blog-e0ce8fef27e0',
 },

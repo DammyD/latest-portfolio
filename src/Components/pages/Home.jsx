@@ -53,7 +53,6 @@ const Home = ({ colorTheme }) => {
                   <FaCss3Alt className="text-blue-500 text-2xl" />
                   <TbBrandJavascript className="text-yellow-500 text-2xl" />
                   <FaReact className="text-purple-500 text-2xl" />
-                  <SiTailwindcss className="text-teal-500 text-2xl" />
                 </div>
               </div>
             </div>

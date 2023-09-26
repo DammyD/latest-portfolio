@@ -10,6 +10,7 @@ const webApps = [
       tags: ['React', 'CSS'],
       site: 'https://effortless-lolly-b64d81.netlify.app/'
     },
+
     {
       id: 2,
       title: 'A SEARCH PAGE',
@@ -17,6 +18,7 @@ const webApps = [
       tags: ['React', 'CSS'],
       site: 'https://snazzy-gecko-958203.netlify.app/'
     },
+    
     {
       id: 3,
       title: 'CALENDAR',

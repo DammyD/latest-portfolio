@@ -17,7 +17,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className='credits'>
-          &copy; designed &amp; built by <a href="https://github.com/DammyD/latest-portfolio" className='font-bold text-blue-500 hover:text-red-500 underline' target="_blank" rel="noopener noreferrer">Blessing Dawodu</a>
+          &copy; designed &amp; built by <a href="https://github.com/DammyD" className='font-bold text-blue-500 hover:text-red-500 underline' target="_blank" rel="noopener noreferrer">Blessing Dawodu</a>
         </div>
         <span className='heart'>&hearts;</span>
       </div>

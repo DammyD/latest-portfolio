@@ -57,7 +57,7 @@ const About = () => {
               </div>
               <span>Oct. 2022 - June 2023 | Lagos, Nigeria</span>
               <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
-                <li className="text-base md:text-lg">Responsible for building user interfaces and developing frontend architecture on various client projects using several technologies and methodologies.</li>
+                <li className="text-base md:text-lg">Collaborated with a team of learners to create wireframes, mockups and prototypes for products and see them to deployment.</li>
               </ul>
               </div>
               </div>
@@ -70,7 +70,7 @@ const About = () => {
               </div>
               <span>March 2022 - May 2023 | Virtual</span>
               <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
-                <li className="text-base md:text-lg">Collaborated with a team of two to create wireframes, mockups and prototypes for products and see them to deployment.</li>
+                <li className="text-base md:text-lg">Responsible for building user interfaces and also collobrated with a team of two in developing frontend architecture on various client projects using several technologies and methodologies.</li>
               </ul>
               </div>
               </div>
@@ -103,6 +103,7 @@ const About = () => {
               <h2 className="text-lg md:text-xl font-bold">Frameworks</h2>
               <ul className="project-tags flex mt-2 md:mt-4 space-x-2 pb-2 md:pb-3">
                 <li className="text-base md:text-lg">Tailwind</li>
+                <li className="text-base md:text-lg">Styled Components</li>
               </ul>
               </div>
 
