@@ -7,7 +7,7 @@ import project7 from '../assets/project7.png'
 const projectData = [
         {
           id: 1,
-          title: 'Gallery',
+          title: 'GALLERY',
           imageSrc: project2,
           content: 'A gallery app',
           tags: ['React', 'Styled Components'],
@@ -16,7 +16,7 @@ const projectData = [
 
         {
           id: 2,
-          title: 'Movies',
+          title: 'MOVIES',
           imageSrc: project4,
           content: 'A movie website',
           tags: ['React', 'Styled Components'],
